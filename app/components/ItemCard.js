@@ -21,7 +21,7 @@ const ItemCard = ({ item }) => {
 
   return (
     <span
-      className='flex items-center justify-center bg-[#fffdf8] cursor-pointer p-[.5rem_1rem] rounded-lg shadow-md flex-1'
+      className='flex items-center justify-center bg-[#fffdf8] hover:bg-slate-200 active:bg-red-100 cursor-pointer p-[.5rem_1rem] rounded-lg shadow-md flex-1'
       onClick={handleDelete}
     >
       {item.name}
@@ -30,3 +30,4 @@ const ItemCard = ({ item }) => {
 };
 
 export default ItemCard;
+
