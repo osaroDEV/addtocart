@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div className='bg-[#eef0f4] flex items-center justify-center min-h-[100vh] h-auto py-6'>
-      <main className='border-[#800080] border-4 rounded-2xl w-[calc(100vw/3.5)] min-h-[calc(100vh*.75)] h-auto px-12 py-6 flex flex-col items-center justify-center gap-10'>
+      <main className='border-[#800080] border-4 rounded-2xl xl-[calc(100vw/3.5)] h-auto px-12 sm:px-2 py-6 sm:py-1 flex flex-col items-center justify-center gap-10'>
       <div className='w-1/4 bg-red-500 h-20'></div>
       <ItemForm />
         <>{items.length !== 0 ? (
